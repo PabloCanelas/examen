@@ -6,4 +6,4 @@ Feature:
 Scenario: 
     Given estoy en la pagina de inicio
     Then deberia poder ingresar un monto "5" en el campo "monto"
-    Then deberia poder depositar el monto
+    Then deberia poder depositar el monto presionando "depositar"
