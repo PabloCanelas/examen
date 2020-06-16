@@ -3,4 +3,8 @@ class Cuenta
     def sumarMonto(num)
         return @@monto+num
     end
+
+    def restarMonto(num)
+        return @@monto-num
+    end
 end
